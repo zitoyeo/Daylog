@@ -2,6 +2,7 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import RootStack from "./screens/RootStack";
 import { LogContextProvider } from "./context/LogContext";
+import "react-native-get-random-values";
 
 function App() {
   return (
