@@ -17,7 +17,7 @@ function CalendarView({ markedDates, selectedDate, onSelectDate }) {
     <Calendar
       style={styles.calendar}
       markedDates={markedSelectedDate}
-      onDayPress={(day) => {
+      onDayPress={(day) => { //클릭된 날짜에 표시가 됨
         onSelectDate(day.dateString);
       }}
       theme={{
